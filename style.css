@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+body{
+    /* background-color: rgb(237, 231, 231); */
+    background-color: #205b7a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #000000 ,5px 5px 5px #000000;
+
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+#display{
+ height: 90px;
+ width: 100%;
+ border: none;
+ background: transparent;
+ /* new learned */
+ box-shadow: inset  2px 2px 10px #b4edf4,inset -5px -5px 10px #ffffff;
+ font-size: 30px;
+ padding: 10px;
+ /* keep this in mind  */
+ box-sizing: border-box;
+ text-align: right;
+}
+.button-grp{
+    display: flex;
+    justify-content: space-around;
+}
+.button1{
+    width: 90px;
+    height: 90px;
+    border: none;
+    font-size:large;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #fafaf4;
+    margin-bottom: 20px;
+    font-weight: bolder;    
+}
+.button1:active{
+    box-shadow: inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+}
+.button1:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#dotbutton{
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px ;
+}
